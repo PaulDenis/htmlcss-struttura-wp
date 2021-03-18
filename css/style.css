@@ -1,25 +1,14 @@
 /* debug */
 
-#start-page {
-    height: 150px;
-    background-color: palevioletred;
-} 
-
 #upper {
     height: 500px;
     background-color: yellow;
 }
 
 
-footer {
-    height: 75px;
-    background-color: blueviolet;
-}
-
 /* /debug */
 
 /* common */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,18 +27,18 @@ footer {
     margin-top: 20px;
 }
 
+/* main content section */
+#start-page {
+    height: 150px;
+    background-color: palevioletred;
+} 
+
 #upper, #lower {
     margin-top: 25px;
 }
 
-#close-page {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
 #lower {
     padding-bottom: 1%;
-    /* height: 650px; */
     background-color: blue;
 }
 
@@ -66,13 +55,6 @@ footer {
     background-color: cyan;
 }
 
-#lower > section {
-    width: 50%;
-}
-#right {
-    float: right;
-}
-
 aside {
     height: 570px;
     float: left;
@@ -80,4 +62,22 @@ aside {
     margin: 1% 0;
     background-color: cyan;
 
+}
+
+#lower > section {
+    width: 50%;
+}
+
+#right {
+    float: right;
+}
+
+
+/* page ending */
+
+#close-page {
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
 }
